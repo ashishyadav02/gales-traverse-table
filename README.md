@@ -1,3 +1,4 @@
+[![Download](https://img.shields.io/badge/Download-EXE-brightgreen)](https://github.com/ashishyadav02/gales-traverse-table/releases/download/v1.0/galestraversetable.exe)
 # Gales Traverse Table
 
 **Developer : ASHISH KUMAR YADAV**  
