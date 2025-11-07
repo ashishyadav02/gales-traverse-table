@@ -245,6 +245,11 @@ int main() {
     
     // DISPLAY RESULTS
     displayResults(stations, num_stations, input_type, sum_lat, sum_dep, total_length);
+
+    printf("\n\nPress Enter to exit...");
+    getchar(); // this will take the leftover '\n'
+    getchar(); // this will wait for user to press ENTER
+
     
     return 0;
 }
@@ -638,3 +643,4 @@ void calculateIndependentCoordinates(struct Station stations[], int num_stations
                                          stations[i].corrected_easting - stations[i].corrected_westing;
     }
 }
+
